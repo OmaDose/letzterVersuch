@@ -11,5 +11,8 @@ for line in content: #array iterieren
     #limit = limit - 1 #siehe oben
     #if limit == 0:
     #    break
+    x = parts[0]
+    y = parts[1]
+    z = parts[2]
     parts = line.split(' ') #split in x | y | z
-    print 'z: ' + str(parts[2]) #output z
+    print 'z: ' + str(z) #output z
